@@ -3,18 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "MathLibrary\MathLibrary.csproj", "{FDD054A4-C096-43AF-8932-86A4E575CDFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathLibrary", "MathLibrary\MathLibrary.csproj", "{FDD054A4-C096-43AF-8932-86A4E575CDFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary.Tests", "MathLibrary.Tests\MathLibrary.Tests.csproj", "{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Debug|x64.ActiveCfg = Debug|x64
+		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Debug|x64.Build.0 = Debug|x64
 		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Release|x64.ActiveCfg = Release|x64
+		{FDD054A4-C096-43AF-8932-86A4E575CDFA}.Release|x64.Build.0 = Release|x64
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Debug|x64.Build.0 = Debug|Any CPU
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Release|x64.ActiveCfg = Release|Any CPU
+		{1A49C718-7902-420D-8BD9-2DE9D4E1A1DB}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
