@@ -1,0 +1,12 @@
+language: csharp
+solution: CIDemo.sln
+mono: none
+dotnet: 3.1.5
+
+install:
+- dotnet restore CIDemo.sln
+- 
+
+script:
+ - dotnet build
+ - dotnet test MathLibrary.Tests/MathLibrary.Tests.csproj
